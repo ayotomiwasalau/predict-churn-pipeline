@@ -32,7 +32,7 @@ python test_runner.py
 
 ```
 
-Navigate to `logs`, `models`, and  `images` to view the outputs.
+Navigate to `logs`, `models`, and  `images` to view the outputs. Check test folder for output of test runner.
 
 
 
