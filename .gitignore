@@ -1,2 +1,3 @@
 **/__pycache__/**
-/workenv/
+workenv/
+.DS_Store
