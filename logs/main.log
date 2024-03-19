@@ -1,6 +1,6 @@
 root - INFO - File import complete
 root - INFO - Generating data statistics...
-root - INFO - The dataframe has 5121 cols and 23 rows
+root - INFO - The dataframe has 10127 cols and 23 rows
 root - INFO - Check the nulls of the dataframe...
 root - INFO - Unnamed: 0                  0
 CLIENTNUM                   0
@@ -27,15 +27,15 @@ Avg_Utilization_Ratio       0
 Churn                       0
 dtype: int64
 root - INFO - Show summary statistics for data...
-root - INFO -         Unnamed: 0     CLIENTNUM  Customer_Age  Dependent_count  ...  Total_Trans_Ct  Total_Ct_Chng_Q4_Q1  Avg_Utilization_Ratio        Churn
-count  5121.000000  5.121000e+03   5121.000000      5121.000000  ...     5121.000000          5121.000000            5121.000000  5121.000000
-mean   2560.000000  7.401450e+08     46.270064         2.246241  ...       52.527045             0.708280               0.267264     0.116969
-std    1478.449695  3.730730e+07      8.737888         1.308662  ...       18.833639             0.288136               0.268617     0.321415
-min       0.000000  7.080833e+08     26.000000         0.000000  ...       10.000000             0.000000               0.000000     0.000000
-25%    1280.000000  7.132067e+08     40.000000         1.000000  ...       36.000000             0.542000               0.038000     0.000000
-50%    2560.000000  7.181915e+08     46.000000         2.000000  ...       52.000000             0.676000               0.170000     0.000000
-75%    3840.000000  7.784479e+08     53.000000         3.000000  ...       69.000000             0.824000               0.469000     0.000000
-max    5120.000000  8.283431e+08     73.000000         5.000000  ...      103.000000             3.714000               0.999000     1.000000
+root - INFO -          Unnamed: 0     CLIENTNUM  Customer_Age  Dependent_count  ...  Total_Trans_Ct  Total_Ct_Chng_Q4_Q1  Avg_Utilization_Ratio         Churn
+count  10127.000000  1.012700e+04  10127.000000     10127.000000  ...    10127.000000         10127.000000           10127.000000  10127.000000
+mean    5063.000000  7.391776e+08     46.325960         2.346203  ...       64.858695             0.712222               0.274894      0.160660
+std     2923.557422  3.690378e+07      8.016814         1.298908  ...       23.472570             0.238086               0.275691      0.367235
+min        0.000000  7.080821e+08     26.000000         0.000000  ...       10.000000             0.000000               0.000000      0.000000
+25%     2531.500000  7.130368e+08     41.000000         1.000000  ...       45.000000             0.582000               0.023000      0.000000
+50%     5063.000000  7.179264e+08     46.000000         2.000000  ...       67.000000             0.702000               0.176000      0.000000
+75%     7594.500000  7.731435e+08     52.000000         3.000000  ...       81.000000             0.818000               0.503000      0.000000
+max    10126.000000  8.283431e+08     73.000000         5.000000  ...      139.000000             3.714000               0.999000      1.000000
 
 [8 rows x 17 columns]
 root - INFO - Churn distirbution chart complete and saved
@@ -54,43 +54,43 @@ root - INFO - random forest results
 root - INFO - test results
 root - INFO -               precision    recall  f1-score   support
 
-           0       0.96      0.99      0.98      1352
-           1       0.89      0.72      0.80       185
+           0       0.96      0.99      0.98      2543
+           1       0.94      0.81      0.87       496
 
-    accuracy                           0.96      1537
-   macro avg       0.93      0.86      0.89      1537
-weighted avg       0.95      0.96      0.95      1537
+    accuracy                           0.96      3039
+   macro avg       0.95      0.90      0.92      3039
+weighted avg       0.96      0.96      0.96      3039
 
 root - INFO - train results
 root - INFO -               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00      3170
-           1       1.00      1.00      1.00       414
+           0       1.00      1.00      1.00      5957
+           1       1.00      1.00      1.00      1131
 
-    accuracy                           1.00      3584
-   macro avg       1.00      1.00      1.00      3584
-weighted avg       1.00      1.00      1.00      3584
+    accuracy                           1.00      7088
+   macro avg       1.00      1.00      1.00      7088
+weighted avg       1.00      1.00      1.00      7088
 
 root - INFO - logistic regression results
 root - INFO - test results
 root - INFO -               precision    recall  f1-score   support
 
-           0       0.93      0.98      0.96      1352
-           1       0.78      0.50      0.61       185
+           0       0.90      0.97      0.93      2543
+           1       0.72      0.44      0.54       496
 
-    accuracy                           0.92      1537
-   macro avg       0.86      0.74      0.78      1537
-weighted avg       0.92      0.92      0.91      1537
+    accuracy                           0.88      3039
+   macro avg       0.81      0.70      0.74      3039
+weighted avg       0.87      0.88      0.87      3039
 
 root - INFO - train results
 root - INFO -               precision    recall  f1-score   support
 
-           0       0.94      0.98      0.96      3170
-           1       0.77      0.50      0.60       414
+           0       0.91      0.96      0.94      5957
+           1       0.73      0.50      0.59      1131
 
-    accuracy                           0.92      3584
-   macro avg       0.85      0.74      0.78      3584
-weighted avg       0.92      0.92      0.92      3584
+    accuracy                           0.89      7088
+   macro avg       0.82      0.73      0.76      7088
+weighted avg       0.88      0.89      0.88      7088
 
 root - INFO - Results displayed successfully
 root - INFO - Matrix plot stored successfully
