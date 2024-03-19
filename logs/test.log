@@ -1,0 +1,64 @@
+root - INFO - Running test_should_import_csv_file...
+root - INFO - File import complete
+root - INFO - test_should_import_csv_file passed
+root - INFO - 
+root - INFO - Running test_should_plot_churn_distribution...
+root - INFO - File import complete
+root - INFO - Churn distirbution chart complete and saved
+root - INFO - test_should_plot_churn_distribution passed
+root - INFO - 
+root - INFO - Running test_should_plot_customer_hist_distribution...
+root - INFO - File import complete
+root - INFO - Customer distirbution chart complete and saved
+root - INFO - test_should_plot_customer_hist_distribution passed
+root - INFO - 
+root - INFO - Running test_should_plot_marital_status_dist...
+root - INFO - File import complete
+root - INFO - Marital status bar chart complete and saved
+root - INFO - test_should_plot_marital_status_dist passed
+root - INFO - 
+root - INFO - Running test_should_plot_total_trans_density_hist_distribution...
+root - INFO - File import complete
+root - INFO - Total transaction density chart complete and saved
+root - INFO - test_should_plot_total_trans_density_hist_distribution passed
+root - INFO - 
+root - INFO - Running test_should_plot_heatmap_to_check_correllation...
+root - INFO - File import complete
+root - INFO - Heatmap corr chart complete and saved
+root - INFO - test_should_plot_heatmap_to_check_correllation passed
+root - INFO - 
+root - INFO - Running test_should_encode_cat_features...
+root - INFO - File import complete
+root - INFO - Encoding of categorical variables...
+root - INFO - Encoding complete.
+root - INFO - test_should_encode_cat_features passed
+root - INFO - 
+root - INFO - Running test_should_split_features...
+root - INFO - File import complete
+root - INFO - Encoding of categorical variables...
+root - INFO - Encoding complete.
+root - INFO - Train and test set ready!
+root - INFO - test_should_split_features passed
+root - INFO - 
+root - INFO - Running test_classification_fitting_and_predicting...
+root - INFO - File import complete
+root - INFO - Encoding of categorical variables...
+root - INFO - Encoding complete.
+root - INFO - Train and test set ready!
+root - INFO - Fitting of model ongoing...
+root - INFO - Parameters initialized!
+root - INFO - Fitting completed!
+root - INFO - Prediction complete
+root - INFO - test_classification_fitting_and_predicting passed
+root - INFO - 
+root - INFO - Running test_saving_model...
+root - INFO - test_saving_model passed
+root - INFO - 
+root - INFO - Running test_loading_model...
+root - INFO - test_loading_model passed
+root - INFO - 
+root - INFO - Running test_model_evaluation_plot...
+root - INFO - Models roc plot complete. Check images folder for result!
+root - INFO - Model explainer plot complete. Check images folder for result!
+root - INFO - Feature importance plot complete. Check images folder for result!
+root - INFO - test_model_evaluation_plot passed
